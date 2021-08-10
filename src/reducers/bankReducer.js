@@ -5,9 +5,9 @@ const reducer = (
     action
 ) => {
     switch (action.type) {
-        case "deposit":
+        case "DEPOSIT":
             return state + action.payload;
-        case "withdraw":
+        case "WITHDRAW":
             return state - action.payload
         default:
             return state
